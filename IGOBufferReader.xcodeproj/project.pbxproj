@@ -13,6 +13,7 @@
 		B63B9C1920624178005254FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63B9C1820624178005254FE /* Assets.xcassets */; };
 		B63B9C1C20624178005254FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63B9C1A20624178005254FE /* LaunchScreen.storyboard */; };
 		B63B9C1F20624178005254FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B9C1E20624178005254FE /* main.m */; };
+		B63B9C2E20625215005254FE /* IGOBufferReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B9C2D20625215005254FE /* IGOBufferReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B63B9C1B20624178005254FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B63B9C1D20624178005254FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63B9C1E20624178005254FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B63B9C2C20625215005254FE /* IGOBufferReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGOBufferReader.h; sourceTree = "<group>"; };
+		B63B9C2D20625215005254FE /* IGOBufferReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGOBufferReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		B63B9C0E20624178005254FE /* IGOBufferReader */ = {
 			isa = PBXGroup;
 			children = (
+				B63B9C2B20625215005254FE /* Tools */,
 				B63B9C0F20624178005254FE /* AppDelegate.h */,
 				B63B9C1020624178005254FE /* AppDelegate.m */,
 				B63B9C1220624178005254FE /* ViewController.h */,
@@ -69,6 +73,15 @@
 				B63B9C1E20624178005254FE /* main.m */,
 			);
 			path = IGOBufferReader;
+			sourceTree = "<group>";
+		};
+		B63B9C2B20625215005254FE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B63B9C2C20625215005254FE /* IGOBufferReader.h */,
+				B63B9C2D20625215005254FE /* IGOBufferReader.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63B9C2E20625215005254FE /* IGOBufferReader.m in Sources */,
 				B63B9C1420624178005254FE /* ViewController.m in Sources */,
 				B63B9C1F20624178005254FE /* main.m in Sources */,
 				B63B9C1120624178005254FE /* AppDelegate.m in Sources */,
@@ -281,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZZFEHNP5S;
 				INFOPLIST_FILE = IGOBufferReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ingo.IGOBufferReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZZFEHNP5S;
 				INFOPLIST_FILE = IGOBufferReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ingo.IGOBufferReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
